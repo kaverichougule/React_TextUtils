@@ -1,12 +1,13 @@
-
 import './App.css';
-import TextArea from './Components/TextArea';
+import Header from './Components/Header/Header';
+import TextComponent from './Components/TextComponent/TextComponent';
 
 function App() {
-  document.title="Text Utils";
+  document.title = "TextUtils";
   return (
     <div className="App">
-      <TextArea />
+      <Header />
+      <TextComponent />
     </div>
   );
 }

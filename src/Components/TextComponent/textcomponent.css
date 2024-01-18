@@ -1,0 +1,86 @@
+.textComponent{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#f1f1f1 50%,#9ee8ff 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 4rem 0;
+}
+
+.textarea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+label{
+    padding-left: 9.5rem;
+    align-self: flex-start;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#box, #previewBox{
+    resize: none;
+    width: 80%;
+    height: 15rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #0A5ED6;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:disabled{
+    opacity: 0.7;
+}
+
+.text{
+    background-color: #DD3544;
+}
+
+.copy{
+    background-color: #188654;
+}
+
+.textDetailsContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    
+}
+
+.previewContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#previewBox{
+    height: 8rem;
+}

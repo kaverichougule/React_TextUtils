@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    width: 100%;
+}
+.textAreaContainer,.displayText{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    resize: vertical;
+    padding: 1rem;
+    cursor: text;
+    font-size: 22px;
+}
+.task_performing_btns{
+    display: flex;
+    gap: 1rem;
+}
